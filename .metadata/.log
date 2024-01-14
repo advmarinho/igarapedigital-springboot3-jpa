@@ -130,3 +130,6 @@ java.util.concurrent.CompletionException: java.util.concurrent.CancellationExcep
 Caused by: java.util.concurrent.CancellationException
 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
 	... 31 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-14 00:04:00.327
+!MESSAGE Classpath changed for project: webcurso
