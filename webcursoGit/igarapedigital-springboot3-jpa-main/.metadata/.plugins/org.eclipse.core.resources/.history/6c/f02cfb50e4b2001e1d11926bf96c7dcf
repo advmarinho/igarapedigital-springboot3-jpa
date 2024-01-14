@@ -1,0 +1,14 @@
+package com.igarapedigital.webcurso.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+
+import com.igarapedigital.webcurso.repositories.UserRepository;
+
+@Configuration
+@Profile("test")
+public class TestConfig {
+	
+	private UserRepository userRepository;
+
+}

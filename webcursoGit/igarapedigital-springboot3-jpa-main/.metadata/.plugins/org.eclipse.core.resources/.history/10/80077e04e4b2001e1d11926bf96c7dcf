@@ -1,0 +1,5 @@
+package com.igarapedigital.webcurso.config;
+
+public class TestConfig {
+
+}
